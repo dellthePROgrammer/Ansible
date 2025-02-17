@@ -17,7 +17,6 @@
     - name: Check if a reboot is needed
       stat: 
         path: /var/run/reboot-required 
-        get_md5: no
       register: reboot_required_file
 
     - name: Auto remove unneeded packages
