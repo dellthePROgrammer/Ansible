@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: debian
   become: yes
   remote_user: ansible
   tasks:
